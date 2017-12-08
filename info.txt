@@ -1,0 +1,5 @@
+How to get a news site to be displayed inside of a div:
+    https://stackoverflow.com/questions/6608494/include-a-webpage-inside-a-div
+
+Microsoft Azure Link for scolarly article search:
+    https://portal.azure.com/#resource/subscriptions/dfd6df54-ec14-4b5a-bb0d-fa098f057854/resourcegroups/MyNews/providers/Microsoft.CognitiveServices/accounts/NickRoberson/quickstart 
