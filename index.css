@@ -1,12 +1,3 @@
-body {
-  font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
-  color: #fff;
-  padding: 50px;
-  width: 300px;
-  margin: 0 auto;
-  background-color: #374954;
-}
-
 #checkboxes label {
   float: left;
 }
@@ -14,4 +5,17 @@ body {
   margin: 0;
   list-style: none;
   float: left;
+}
+
+.media-body {
+  width: 90vw !important;
+  height: 90vh !important;
+  margin: 5vh 5vw 5vh 5vw !important;
+  border: 5px white solid !important;
+  border-radius: 15px !important;
+}
+
+.breadcrumb {
+  margin: 5vh 5vw 5vh 5vw;
+  width: 90vw;
 }
