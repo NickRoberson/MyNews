@@ -1,5 +1,25 @@
 How to get a news site to be displayed inside of a div:
     https://stackoverflow.com/questions/6608494/include-a-webpage-inside-a-div
 
+Google sentiment analysis:
+    https://cloud.google.com/natural-language/docs/quickstart-client-libraries#client-libraries-install-nodejs
+    
 Microsoft Azure Link for scolarly article search:
     https://portal.azure.com/#resource/subscriptions/dfd6df54-ec14-4b5a-bb0d-fa098f057854/resourcegroups/MyNews/providers/Microsoft.CognitiveServices/accounts/NickRoberson/quickstart 
+
+List of News Sources:
+Tech Crunch (tech-crunch)
+Wired (wired)
+Engaget (engaged)
+The Washington Post (the-washington-post)
+The New York Times (the-new-york-times)
+The Hill (the-hill)
+Politico (politico)
+News24 (news24)
+Vice News (vice-news)
+BBC News (bbc-news)
+Independent (independent)
+The Guardian (the-guardian)
+The Telegraph (the-telegraph)
+Al Jazeera English (al-jazeera-english)
+Reuters (reuters)

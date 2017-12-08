@@ -3,41 +3,25 @@
   <head>
     <meta charset="UTF-8">
     <title>My News</title>
-    <!-- SCRIPTS -->
-    <script src="jquery-3.2.1.min.js"></script>
-    <!-- CSS --> 
-    <link rel="stylesheet" href="styles.css">
+    <!--css -->
+    <link rel="stylesheet" href="index.css" TYPE="text/css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body>
-    <dl class="dropdown"> 
-  
-    <dt>
-    <a href="#">
-      <span class="hida">Select</span>    
-      <p class="multiSel"></p>  
-    </a>
-    </dt>
-  
-    <dd>
-        <div class="mutliSelect">
-            <ul>
-                <li>
-                    <input type="checkbox" value="Apple" />Apple</li>
-                <li>
-                    <input type="checkbox" value="Blackberry" />Blackberry</li>
-                <li>
-                    <input type="checkbox" value="HTC" />HTC</li>
-                <li>
-                    <input type="checkbox" value="Sony Ericson" />Sony Ericson</li>
-                <li>
-                    <input type="checkbox" value="Motorola" />Motorola</li>
-                <li>
-                    <input type="checkbox" value="Nokia" />Nokia</li>
-            </ul>
-        </div>
-    </dd>
-  <button>Filter</button>
-  </dl>  
-  
+    
+    <div id="checkboxes">
+        <label>Filter by Source</label>
+        <ul>
+            <li><input type="checkbox"> Hacker News </li>
+            <li><input type="checkbox"> Wired </li>
+            <li><input type="checkbox"> The New York Times </li>
+            <li><input type="checkbox"> Al Jazeera English </li>
+        </ul>
+    </div>
+
   </body>
 </html>
