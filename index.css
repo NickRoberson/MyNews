@@ -1,3 +1,8 @@
+body {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
+  font-weight: bold;
+}
+
 #checkboxes label {
   float: left;
 }
@@ -8,14 +13,54 @@
 }
 
 .media-body {
-  width: 90vw !important;
-  height: 90vh !important;
-  margin: 5vh 5vw 5vh 5vw !important;
-  border: 5px white solid !important;
-  border-radius: 15px !important;
+  /* Set rules to fill background */
+  min-height: 100vh !important;
+  min-width: 100vw !important;
+	
+  margin: 0px;
+  padding: 0px;
+  /* Set up positioning */
+  /* position: fixed;
+  top: 0;
+  left: 0; */
 }
 
 .breadcrumb {
   margin: 5vh 5vw 5vh 5vw;
   width: 90vw;
+}
+
+.dropdown-search {
+  /* sixing and margin/padding */
+  padding: 2vh 5vw 2vh 5vw;
+  width: 100vw;
+  height: 30vh;
+
+  /* colors and opacity */
+  background-color: #474747;
+  color: #ffffff;
+  opacity: .0;
+
+  /* animations */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+
+  /* page orientation */
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.dropdown-search:hover {
+  opacity: .90;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
 }

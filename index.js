@@ -1,7 +1,7 @@
 init();
 
 function init() {
-    searchArticles("post decolonization");
+    searchArticles("bitcoin");
     searchNews("bitcoin");
 }
 
