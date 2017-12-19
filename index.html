@@ -13,13 +13,17 @@
   </head>
   <body>
     
-    <div class="dropdown-search">
+    <div id="fadein_view" class="dropdown-search">
       <h1>Search</h1>
       <div class="input-group">
-        <span class="input-group-btn">
-          <button class="btn btn-secondary" type="button">Go!</button>
+        <input id="search_text" type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+        <span class="input-group-btn go-btn">
+          <button id="search_btn" class="btn btn-secondary" type="button">Go!</button>
         </span>
-        <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+      </div>
+      <div>
+        <ul id="list-results" class="list-group">
+        </ul>
       </div>
     </div> 
     
@@ -38,6 +42,10 @@
     <div id="media_body" class="col-12-lg media-body">
     </div>
 
+      
+    <button id="click_trigger" class="btn-success btn-large hover-btn">
+      Toggle View
+    </button>
     <script src="index.js"></script>    
     </body>
 </html>

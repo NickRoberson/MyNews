@@ -1,6 +1,6 @@
 body {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 #checkboxes label {
@@ -19,10 +19,6 @@ body {
 	
   margin: 0px;
   padding: 0px;
-  /* Set up positioning */
-  /* position: fixed;
-  top: 0;
-  left: 0; */
 }
 
 .breadcrumb {
@@ -34,7 +30,7 @@ body {
   /* sixing and margin/padding */
   padding: 2vh 5vw 2vh 5vw;
   width: 100vw;
-  height: 30vh;
+  height: 0vh;
 
   /* colors and opacity */
   background-color: #474747;
@@ -42,11 +38,11 @@ body {
   opacity: .0;
 
   /* animations */
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+  -o-transition: 1s;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
 
   /* page orientation */
   z-index: 10;
@@ -55,12 +51,49 @@ body {
   left: 0px;
 }
 
-.dropdown-search:hover {
-  opacity: .90;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  /* ...and now for the proper property */
-  transition:.5s;
+.dropdown-search-hover {
+    /* sixing and margin/padding */
+  padding: 2vh 5vw 2vh 5vw;
+  width: 100vw;
+  height: auto;
+
+  /* colors and opacity */
+  background-color: #474747;
+  color: #ffffff;
+  opacity: .95;
+
+  /* animations */
+  -o-transition: 1s;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
+
+  /* page orientation */
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.list-group {
+  height: 30vh;
+  overflow: scroll;
+  margin: 10px 0px 10px 0px;
+}
+
+.hover-btn {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  z-index: 10;
+
+  height: 40px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.go-btn {
+  color: #474747;
 }
